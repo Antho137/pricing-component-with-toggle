@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">  
+    <title>Frontend Mentor | Price Component with Toggle</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+			<div class="row justify-content-sm-center" id="first">
+        <header class="col-sm-12 col-xl-8 offset-xl-2" id="one">
+          <h1>Our Pricing</h1>
+          <div id="intro">
+            <span class="annually">Annually</span>
+            <label class="toggle">
+              <input type="checkbox" id="toggle" checked />
+              <span class="slider"></span>
+            </label>
+            <span class="monthly">Monthly</span>
+          </div>
+        </header>
+      </div>
+			<div class="row justify-content-sm-center" id="second">
+        <main class="col-sm-8 offset-sm-2 col-md-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2" id="two">
+          <div id="plan">
+            <div class="col-md-4" id="basic">
+              <h3>Basic</h3>
+              <div class="price">
+                <h2 class="monthlyPrice"><small>&dollar;</small>19.99</h2>
+                <h2 class="annuallyPrice hidden"><small>&dollar;</small>199.99</h2>
+              </div>
+              <p>500 GB Storage</p>
+              <p>2 Users Allowed</p>
+              <p>Send up to 3 GB</p>
+              <button class="infoBtn">Learn More</button>
+            </div>
+            <div class="col-md-4" id="pro">
+              <h3>Professional</h3>
+              <div class="price">
+                <h2 class="monthlyPrice"><small>&dollar;</small>24.99</h2>
+                <h2 class="annuallyPrice hidden"><small>&dollar;</small>249.99</h2>
+              </div>
+              <p>1 TB Storage</p>
+              <p>5 Users Allowed</p>
+              <p>Send up to 10 GB</p>
+              <button class="infoBtn">Learn More</button>
+            </div>
+            <div class="col-md-4" id="master">
+              <h3>Master</h3>
+              <div class="price">
+                <h2 class="monthlyPrice"><small>&dollar;</small>39.99</h2>
+                <h2 class="annuallyPrice hidden"><small>&dollar;</small>399.99</h2>
+              </div>
+              <p>2 TB Storage</p>
+              <p>10 Users Allowed</p>
+              <p>Send up to 20 GB</p>
+              <button class="infoBtn">Learn More</button>
+            </div>
+          </div>
+        </main>
+      </div>
+			<div class="row justify-content-sm-center" id="third">
+        <div class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="#">Antonio Sala</a>.
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>   
+  </body>
+</html>
